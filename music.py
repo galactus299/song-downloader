@@ -5,7 +5,7 @@ import tkinter as tk
 def download(song,artist):
     
     if artist!="":
-        mudopy.set_path("C:\Program Files (x86)\chromedriver_win32\chromedriver.exe")
+        mudopy.set_path("chromedriver.exe")
         mudopy.download(song,artist,None)
     else:
         mudopy.set_path("C:\Program Files (x86)\chromedriver_win32\chromedriver.exe")
